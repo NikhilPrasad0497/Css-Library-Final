@@ -1,0 +1,150 @@
+*{
+    --button-primary-font-color: white; 
+    --button-primary-back-color: rgb(2, 61, 61);
+    --button-secondary-back-color: darkgrey;
+    --button-success-back-color: green;
+    --button-failure-back-color: red;
+    --button-icon-color: rgb(0, 99, 246);
+    --badge-Bestseller-background-color: orange;
+    --badge-Bestseller-color: white;
+    --badge-new-background-color: palevioletred;
+    --badge-exclusive-background-color: red;
+    /* --badge-exclusive-color: white */
+    --badge-rating-good-background-color: green;
+    --badge-rating-average-background-color: orange;
+    --badge-rating-poor-background-color: red;
+}
+.btn{
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    color: var(--button-primary-font-color);
+}
+
+.btn-filled-primary{
+    background: var(--button-primary-back-color) ;
+    border: 0.5px solid var(--button-primary-back-color);
+}
+
+.btn-filled-secondary{
+    background: var(--button-secondary-back-color);
+    border: 0.5px solid var(--button-secondary-back-color);
+}
+
+.btn-filled-success{
+    background: var(--button-success-back-color);
+    border: 0.5px solid var(--button-success-back-color);
+}
+
+.btn-filled-failure{
+    background: var(--button-failure-back-color);
+    border: 0.5px solid var(--button-failure-back-color);
+}
+
+.btn-outline-primary{
+    color: var(--button-primary-back-color);
+    border: 0.5px solid var(--button-primary-back-color);
+}
+
+.btn-outline-secondary{
+    color: var(--button-secondary-back-color);
+    border: 0.5px solid var(--button-secondary-back-color);
+}
+
+.btn-outline-success{
+    color: var(--button-success-back-color);
+    border: 0.5px solid var(--button-success-back-color);
+}
+
+.btn-outline-failure{
+    color: var(--button-failure-back-color);
+    border: 0.5px solid var(--button-failure-back-color);
+}
+
+.btn-icon{
+    background: transparent;
+    color: var(--button-icon-color);
+    border: none;
+}
+
+.btn-padding{
+    padding: 0rem 1rem;
+    border: 0.5px solid var(--button-icon-color) ;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.avatar{
+    border-radius: 50%;
+    border: 4px solid gray;
+}
+
+.avatar-sm{
+    width: 70px;
+    height: 70px;
+}
+
+.avatar-md{
+    width: 100px;
+    height: 100px;
+}
+
+.avatar-lg{
+    width: 120px;
+    height: 120px;
+}
+
+.badge{
+    cursor: pointer;
+    font-weight: bold;
+    padding: 2px 6px;
+}
+
+.badge-product{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-right: 10px;
+}
+
+.badge-product-bestseller{
+    background-color: var(--badge-Bestseller-background-color);
+    color: var(--badge-Bestseller-color);
+    
+}
+
+.badge-product-new{
+    background-color: var(--badge-new-background-color);
+}
+
+.badge-product-Exclusive{
+    background-color: var(--badge-exclusive-background-color);
+    color: var(--badge-Bestseller-color);
+}
+
+.badge-rating{
+    color: var(--badge-Bestseller-color);
+    border-radius: 1px;
+    padding: 2px 6px;
+}
+
+.badge-rating-good{
+    background-color:var(--badge-rating-good-background-color) ;
+}
+
+.badge-rating-average{
+    background-color: var(--badge-rating-average-background-color);
+}
+
+.badge-rating-poor{
+    background-color: var(--badge-rating-poor-background-color);
+}
+
+.badge-count{
+    position: absolute;
+    top: -8px;
+    right: -9px;
+    background-color: orange;
+    border-radius: 50%;
+}
