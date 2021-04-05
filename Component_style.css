@@ -148,3 +148,59 @@
     background-color: orange;
     border-radius: 50%;
 }
+
+.img-responsive{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    /* max-height: 70vh; */
+
+}
+
+.img-square{
+    width: 30%;
+    height: 30%;
+    box-shadow: 2px -2px black;
+}
+
+.img-circular{
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+    box-shadow: 2px 2px black;
+}
+
+.bullet-lists{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.simple-list{
+    padding-left: 1rem;
+    /* text-indent: -0.5rem; */
+}
+
+.list-style-bullet .simple-list::before{
+    content: "•";
+    color: darkgray;
+    padding-right: 0.25rem;
+}
+
+.list-style-offer .simple-list::before{
+    background-image: url(./Images/Offer.png);
+    background-repeat: no-repeat;
+    background-size: 0.8rem 0.8rem;
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+    content: "";
+    padding-right: 0.25rem;
+}
+
+.simple-list-stacked{
+    width: 25%;
+   text-align: left;
+   padding: 0.4rem 1.2rem;
+   border: 1px solid darkgray; 
+}
